@@ -3,26 +3,30 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hello Rigo with Vanilla.js</title>
+    <title></title>
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
-      integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
-      crossorigin="anonymous"
     />
-    <link rel="shortcut icon" href="./4geeks.ico" />
   </head>
-  <body>
-    <div class="container-fluid text-center">
-      <h1 class="mt-5">Hello Rigo!</h1>
-      <img src="./rigo-baby.jpg" />
-      <p class="alert alert-warning mt-4">
-        If this text is <b>not</b> centered and <b>yellow</b>, you probably have
-        an error
-      </p>
-      <div class="fixed-bottom p-4">
-        Made with ❤️ by
-        <a href="https://www.4geeksacademy.com">4Geeks Academy</a>
+  <body class="bg-success">
+    <div class="container">
+      <h1 class="text-center text-light">Random Card Generetor</h1>
+      <div class="row d-felx justify ronde display">
+        <div class="colm-4 bg-light rounded display-1">
+          <div>
+            <span id="top">♦</span>
+          </div>
+          <div class="d-flex justify-content-center my-5">
+            <span id="number">8</span>
+          </div>
+          <div class="d-flex justify-content-end">
+            <span id="end" style="transform: rotate(180deg)">♦</span>
+          </div>
+        </div>
+      </div>
+      <div class="d-flex justify-content-center mt-5">
+        <button id="newCard" class="btn btn-warning">Otra Carta</button>
       </div>
     </div>
   </body>
